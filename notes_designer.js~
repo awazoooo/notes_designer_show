@@ -1,0 +1,16 @@
+// table要素を全て取得
+let table_list = document.getElementsByTagName("table");
+
+
+for (let i = 0; i < table_list.length; i += 1){
+    let table = table_list[i];
+    
+    // 譜面制作した曲データ取得
+    for (let j = 0; j < table.rows.length; j += 1){
+        
+    }
+
+    // 譜面制作者ID
+    let table_id = i;
+    
+}
